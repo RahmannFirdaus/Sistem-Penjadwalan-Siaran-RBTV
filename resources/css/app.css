@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warna kustom untuk gradasi login dan sidebar RBTV */
+  --color-rbtv-purple: #4b134f;
+  --color-rbtv-red: #cc1b1b;
+}
+
+/* Custom styles untuk tampilan responsive di HP [cite: 18] */
+@utility container-responsive {
+  @apply max-w-full px-4 md:px-8;
+}
